@@ -1,0 +1,2 @@
+# cofrinho
+simple Java app
