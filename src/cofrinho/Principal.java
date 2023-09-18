@@ -121,8 +121,13 @@ public class Principal {
 				valor = pegarValor(teclado);
 				moeda = new Dolar(valor);
 				break;
+			
+			case 4: // Peso
+				valor = pegarValor(teclado);
+				moeda = new Peso(valor);
+				break;
 	
-			case 4: // Voltar ao Menu Principal
+			case 5: // Voltar ao Menu Principal
 				break;
 	
 			default: // Caso um número invalido seja digitado
@@ -151,7 +156,8 @@ public class Principal {
 			System.out.println("1-Real");
 			System.out.println("2-Euro");
 			System.out.println("3-Dolar");
-			System.out.println("4-Voltar ao Menu Principal");
+			System.out.println("4-Dolar");
+			System.out.println("5-Voltar ao Menu Principal");
 		}
 	}
 	
